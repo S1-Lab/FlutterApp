@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:s1_lab/add_page.dart';
+import 'package:s1_lab/Post/add_page.dart';
 
 class HistoryPage extends StatelessWidget {
   const HistoryPage({Key? key}) : super(key: key);

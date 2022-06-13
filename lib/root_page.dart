@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:s1_lab/login_page.dart';
+import 'package:s1_lab/UserInfo/login_page.dart';
 import 'package:s1_lab/tab_page.dart';
 
 class RootPage extends StatelessWidget {

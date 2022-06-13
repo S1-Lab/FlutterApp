@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:s1_lab/calendar_page.dart';
-import 'package:s1_lab/history_page.dart';
-import 'package:s1_lab/login_page.dart';
-import 'package:s1_lab/setting_page.dart';
+import 'package:s1_lab/Calendar/calendar_page.dart';
+import 'package:s1_lab/Post/history_page.dart';
+import 'package:s1_lab/UserInfo/login_page.dart';
+import 'package:s1_lab/UserInfo/setting_page.dart';
 
 class TabPage extends StatefulWidget {
   const TabPage({Key? key}) : super(key: key);

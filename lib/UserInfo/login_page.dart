@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:s1_lab/history_page.dart';
-import 'package:s1_lab/join_page.dart';
+import 'package:s1_lab/Post/history_page.dart';
+import 'package:s1_lab/UserInfo/join_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
