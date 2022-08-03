@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:s1_lab/UserInfo/findInfo_page.dart';
 import 'package:s1_lab/UserInfo/join_page.dart';
 import 'package:s1_lab/tab_page.dart';
 
@@ -53,7 +54,7 @@ class LoginPage extends StatelessWidget {
             FlatButton(
               onPressed: (){
                 Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => JoinPage()));
+                    context, MaterialPageRoute(builder: (_) => FindInfoPage()));
               },
               child: Text(
                 'Forgot Password',
@@ -71,7 +72,7 @@ class LoginPage extends StatelessWidget {
                       context, MaterialPageRoute(builder: (_) => TabPage()));
                 },
                 child: Text(
-                  'Login',
+                  '카카오로 Login',
                   style: TextStyle(color: Colors.white, fontSize: 25),
                 ),
               ),

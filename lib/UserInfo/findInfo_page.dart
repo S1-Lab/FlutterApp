@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:s1_lab/tab_page.dart';
 
-class JoinPage extends StatelessWidget {
-  const JoinPage({Key? key}) : super(key: key);
+class FindInfoPage extends StatelessWidget {
+  const FindInfoPage({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("회원가입 페이지~"),
+        title: Text("회원정보 찾기"),
       ),
-      body:  SingleChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
             Padding(
@@ -96,42 +96,12 @@ class JoinPage extends StatelessWidget {
                 style: TextStyle(color: Colors.blue, fontSize: 15),
               ),
             ),
-            Padding(
-              //padding: const EdgeInsets.only(left:15.0,right: 15.0,top:0,bottom: 0),
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: TextField(
-                decoration: InputDecoration(
-                    border: OutlineInputBorder(),
-                    labelText: '비밀번호',
-                    hintText: '비밀번호'),
-              ),
-            ),
-            Padding(
-              //padding: const EdgeInsets.only(left:15.0,right: 15.0,top:0,bottom: 0),
-              padding: EdgeInsets.symmetric(horizontal: 15),
-              child: TextField(
-                decoration: InputDecoration(
-                    border: OutlineInputBorder(),
-                    labelText: '비밀번호 확인',
-                    hintText: '비밀번호 확인'),
-              ),
-            ),
-            FlatButton(
-              onPressed: (){
-                Navigator.push(
-                    context, MaterialPageRoute(builder: (_) => TabPage()));
-              },
-              child: Text(
-                '회원가입 완료',
-                style: TextStyle(color: Colors.blue, fontSize: 15),
-              ),
-            ),
-
 
 
           ],
         ),
       ),
+
     );
   }
 }
